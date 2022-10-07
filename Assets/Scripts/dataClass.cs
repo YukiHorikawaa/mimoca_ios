@@ -17,6 +17,13 @@ public class GpsData{
 }
 [Serializable]
 public class SensorData{
-    public Vector3 accelerationVal;
-    public Vector3 gyroVal;
+    public float     secTime;
+    public Vector3  accelerationVal;
+    public Vector3  gyroVal;
+    public Vector3  geomagneticVal;
+    public Vector4  gyroQuaternion;
+    public Vector3  accelRotation;
+    public Vector4  accelQuaternion;
+    public float    compasVal;
 }
+//FPS設定するhttp://unityleaning.blog.fc2.com/blog-entry-2.html
